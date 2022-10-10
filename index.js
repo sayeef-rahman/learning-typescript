@@ -1,5 +1,9 @@
-console.log("hello");
-var num1 = '2';
-var num2 = '3';
-console.log(typeof (num1));
-console.log(+num1 + +num2);
+//right but not the right convension
+var num1 = 5;
+var num2 = 10;
+var number1 = 5;
+var number2 = 10;
+function addNumbers() {
+    return number1 + number2;
+}
+console.log("asdfbhsbj", addNumbers());
